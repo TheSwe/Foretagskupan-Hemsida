@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Primer';
+    src: url('primer-print.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Primer';
+    src: url('primer-print-bold.woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: Primer !important;
+}
+
+.bold{
+    font-weight: bold;
+}

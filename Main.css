@@ -4,7 +4,6 @@
 }
 .body-foretagen {
   background-color: #ffc30e;
-  overflow-x: hidden;
 }
 .selectorButton{
   border-radius: 5px;
@@ -26,13 +25,12 @@
 }
 
 /* hex grid */
+.hex-center {
+  width:90%;
+  margin: auto;
+}
 .hex-main {
-  width: 110vw;
-  margin-left: -40px;
-
-  
-
-  
+  width: 100vw;
   display:flex;
   --s: 160px;  /* size  */
   --r: 1;      /* ratio */
@@ -45,10 +43,11 @@
   --m: 8px;    /* vertical margin */
   --m-h: calc(var(--m) + (var(--s) - 2*var(--hc))/2); /* horizontal margin */
   --f: calc(1.9*var(--s) + 4*var(--m) - 2*var(--vc) - 2px);
+  justify-content: center;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 850px){
   .hex-main {
-    width: 110vw;
+    width: 100vw;
     margin-left: -4.5vw;
 
     display: flex;
@@ -66,6 +65,7 @@
   }
 }
 .hex-container {
+  width: 90%;
   font-size: 0; /* disable white space between inline block element */
 }
 .hex-container div {
@@ -78,6 +78,7 @@
   clip-path: polygon(var(--hc) 0, calc(100% - var(--hc)) 0,100% var(--vc), calc(100% - var(--hc)) 100%,var(--hc) 100%,0 var(--vc));
   margin-bottom: calc(var(--m) - var(--vc) * 1.1);
   background-color: rgb(220, 220, 220);
+
 
 }
 
@@ -93,55 +94,55 @@
 #foretag-headsup{
   background-image: url(./ImgFolder/FöretagLoggor/headsup.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-color: azure;
 }
 #foretag-beautybox{
   background-image: url(./ImgFolder/FöretagLoggor/beautybox.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #foretag-biobags{
   background-image: url(./ImgFolder/FöretagLoggor/biobags.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #foretag-doftljuskonstverk{
   background-image: url(./ImgFolder/FöretagLoggor/doftljuskonstverk.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #foretag-lucida{
   background-image: url(./ImgFolder/FöretagLoggor/lucida.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:cover;
 }
 #foretag-lyckotassar{
   background-image: url(./ImgFolder/FöretagLoggor/lyckotassar.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #foretag-mothlightapparel{
   background-image: url(./ImgFolder/FöretagLoggor/mothlightapparel.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #foretag-satine{
   background-image: url(./ImgFolder/FöretagLoggor/satine.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #foretag-wakehvirkning{
   background-image: url(./ImgFolder/FöretagLoggor/wakehvirkning.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #foretag-pure{
   background-image: url(./ImgFolder/FöretagLoggor/pure.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
-/*  */
 .iframe-height{
   height: 75vh;
   width: 100%;
