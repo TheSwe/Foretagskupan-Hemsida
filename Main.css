@@ -1,6 +1,11 @@
+@import url(FontFolder/FontCSS.css);
+
 .body-main {
   background-image: url('./ImgFolder/TileBackground.jpg');
 
+}
+.body-omoss{
+  background-attachment: fixed;
 }
 .body-foretagen {
   background-color: #ffc30e;
@@ -146,4 +151,23 @@
 .iframe-height{
   height: 75vh;
   width: 100%;
+}
+
+/* Om oss */
+.omosshead{
+  text-align: center;
+  margin: 20vh 0 20vh 0;
+  font-size:400%;
+}
+.field{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background-color: #e7e7e7;
+}
+#namnbild{
+  width:20vw;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
 }
