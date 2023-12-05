@@ -96,12 +96,6 @@
 }
 
 /* foretag i grid */
-#foretag-headsup{
-  background-image: url(./ImgFolder/FöretagLoggor/headsup.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: azure;
-}
 #foretag-beautybox{
   background-image: url(./ImgFolder/FöretagLoggor/beautybox.jpg);
   background-repeat: no-repeat;
@@ -117,10 +111,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#foretag-headsup{
+  background-image: url(./ImgFolder/FöretagLoggor/headsup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #foretag-lucida{
   background-image: url(./ImgFolder/FöretagLoggor/lucida.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 #foretag-lyckotassar{
   background-image: url(./ImgFolder/FöretagLoggor/lyckotassar.png);
@@ -144,6 +143,26 @@
 }
 #foretag-pure{
   background-image: url(./ImgFolder/FöretagLoggor/pure.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#foretag-aggu{
+  background-image: url(./ImgFolder/FöretagLoggor/aggu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#foretag-amarone{
+  background-image: url(./ImgFolder/FöretagLoggor/amarone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#foretag-pomelo3d{
+  background-image: url(./ImgFolder/FöretagLoggor/pomelo3d.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#foretag-unpredicaboard{
+  background-image: url(./ImgFolder/FöretagLoggor/unpredictaboard.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
