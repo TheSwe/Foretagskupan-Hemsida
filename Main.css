@@ -27,6 +27,31 @@
 }
 .navbarbg{
   background-color: #3d3427;
+  overflow: hidden;
+}
+.brownbg{
+  background-color: #3d3427;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: black;
+  border-radius: 25%;
+
+}
+.carousel-control-prev, .carousel-control-next{
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.carousel-border{
+  border-radius: 5%;
+  border: #3d3427 5px solid;
+}
+.carouselbg{
+  background-color: #ffc30e;
+  border: #3d3427 5px solid;
+  border-radius: 5%;
+}
+.carousel-item img{
+  object-fit: cover;
 }
 
 /* hex grid */
@@ -184,13 +209,13 @@
   font-size:400%;
 }
 .field{
-  width: 100vw;
+  width: 100%;
   height: auto;
   min-height: 100vh;
   background-color: #e7e7e7;
 }
 #namnbild{
-  width:20vw;
+  width:20%;
   float: right;
   margin-right: 20px;
   margin-top: 20px;
