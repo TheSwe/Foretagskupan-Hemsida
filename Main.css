@@ -42,13 +42,13 @@
   margin-right: 7px;
 }
 .carousel-border{
-  border-radius: 5%;
+  border-radius: 20px;
   border: #3d3427 5px solid;
 }
 .carouselbg{
   background-color: #ffc30e;
   border: #3d3427 5px solid;
-  border-radius: 5%;
+  border-radius: 20px;
 }
 .carousel-item img{
   object-fit: cover;
