@@ -166,6 +166,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#foretag-crunchybites{
+  background-image: url(./ImgFolder/FöretagLoggor/crunchybites.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .iframe-height{
   height: 75vh;
