@@ -22,7 +22,9 @@ public class htmlFiler2 {
         //hexObj(foretag, alts, kategori, descriptions);
         //carouselImg(files, alts, kategori, descriptions);
         //carouselDesc(files, alts, kategori, descriptions);
-        hexClass(files, foretag, alts, kategori, descriptions);
+        //hexClass(files, foretag, alts, kategori, descriptions);
+        Foretag beautybox = new Foretag(alts[0], files[0], foretag[0], kategori[0], descriptions[0]);
+        beautybox.createWebsite();
     }
 
     public static void Obj(String[] foretag, String[] alts) {

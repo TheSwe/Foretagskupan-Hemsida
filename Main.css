@@ -99,7 +99,6 @@
   font-size: 0; /* disable white space between inline block element */
 }
 .hex-container div {
-
   width: var(--s);
   margin: var(--m) var(--m-h);
   height: calc(var(--s)*var(--r));
@@ -108,8 +107,6 @@
   clip-path: polygon(var(--hc) 0, calc(100% - var(--hc)) 0,100% var(--vc), calc(100% - var(--hc)) 100%,var(--hc) 100%,0 var(--vc));
   margin-bottom: calc(var(--m) - var(--vc) * 1.1);
   background-color: rgb(220, 220, 220);
-
-
 }
 
 .hex-container::before {
@@ -217,4 +214,14 @@
 #namnbild{
   float: right;
 
+}
+
+/* Company pages */
+.hex-img{
+  width: 275px;
+  aspect-ratio: 1/1;
+  display: inline-block;
+  font-size:initial;
+  clip-path: polygon(50% 0, 100% 21%, 100% 79%, 50% 100%, 0 79%, 0 21%);
+  background-color: rgb(220, 220, 220);
 }
