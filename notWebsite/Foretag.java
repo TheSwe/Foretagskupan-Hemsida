@@ -1,5 +1,8 @@
 import java.io.BufferedWriter;
+import java.io.BufferedReader;
 import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.File;
 
 public class Foretag {
     public String companyName;
@@ -34,5 +37,24 @@ public class Foretag {
         } catch (Exception e) {
             System.out.println(e);
         }
+        try{
+            FileReader fr = new FileReader(new File("../foretag/templateforetag.html"));   //reads the file  
+            BufferedReader br=new BufferedReader(fr);  //creates a buffering character input stream  
+            String line; 
+            
+            fWriter = new FileWriter("foretag/"+className+".java");
+            writer = new BufferedWriter(fWriter);
+
+            while((line=br.readLine())!=null)  
+            {  
+                writer.write("writer.write("+line+")");
+                
+                
+                
+            }  
+            fr.close();    //closes the stream and release the resources  
+            } catch(Exception e){
+                System.out.print(e);
+            }
     }
 }
