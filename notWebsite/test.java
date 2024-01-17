@@ -46,7 +46,7 @@ writer.write("    <div class=\"row\" style=\"margin:1px\"> ");
 writer.write("        <!--");
 writer.write("        <div class=\"col-md-6 hex-img mx-5 mt-2\" id=\"foretag-beautybox\"></div>");
 writer.write("        -->");
-writer.write("        <img src=\"../ImgFolder/FöretagLoggor/beautybox.jpg\" alt=\"Beautybox UF logo\" class=\"col-md-6 px-2 my-4 \">");
+writer.write("        <img src=\"../ImgFolder/foretag_loggor/beautybox.jpg\" alt=\"Beautybox UF logo\" class=\"col-md-6 px-2 my-4 \">");
 writer.write("");
 writer.write("        <div class=\"my-3 col-md-5 offset-1px-2 pe-5 mt-md-5 col-xs-11\">");
 writer.write("            <h1>Beautybox UF</h1>");

@@ -54,7 +54,7 @@ public class htmlFiler2 {
     public static void carouselImg(String[] files, String[] alts, String[] kategori, String[] descriptions){
         for (int i = 0; i<files.length;i++){
             System.out.println("<div class=\"carousel-item\">");
-            System.out.println("  <img src=\"./ImgFolder/FöretagLoggor/"+files[i]+"\" alt=\""+alts[i]+"\" class=\"d-block w-100\" data-color=\"white\">");
+            System.out.println("  <img src=\"./ImgFolder/foretag_loggor/"+files[i]+"\" alt=\""+alts[i]+"\" class=\"d-block w-100\" data-color=\"white\">");
             System.out.println("</div>");
         }
     }
@@ -72,7 +72,7 @@ public class htmlFiler2 {
     public static void hexClass(String[] files, String[] foretag, String[] alts, String[] kategori, String[] descriptions){
         for (int i = 0; i<files.length;i++){
             System.out.println("#foretag-"+foretag[i]+"{");
-            System.out.println("    background-image: url(./ImgFolder/FöretagLoggor/"+files[i]+");");
+            System.out.println("    background-image: url(./ImgFolder/foretag_loggor/"+files[i]+");");
             System.out.println("    background-repeat: no-repeat;");
             System.out.println("    background-size: cover;");
             System.out.println("}");
@@ -82,7 +82,7 @@ public class htmlFiler2 {
 
 /* 
 #foretag-doftljuskonstverk{
-    background-image: url(./ImgFolder/FöretagLoggor/doftljuskonstverk.jpg);
+    background-image: url(./ImgFolder/foretag_loggor/doftljuskonstverk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }*/
