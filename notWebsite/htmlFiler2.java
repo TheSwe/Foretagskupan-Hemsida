@@ -23,8 +23,13 @@ public class htmlFiler2 {
         //carouselImg(files, alts, kategori, descriptions);
         //carouselDesc(files, alts, kategori, descriptions);
         //hexClass(files, foretag, alts, kategori, descriptions);
-        Foretag beautybox = new Foretag(alts[0], files[0], foretag[0], kategori[0], descriptions[0]);
-        beautybox.createWebsite();
+        
+        /*Foretag foretagit;
+        for (int i = 0; i < files.length; i++){
+            foretagit = new Foretag(alts[i], files[i], foretag[i], kategori[i], descriptions[i]);
+            foretagit.createWebsite();
+        }*/
+        
     }
 
     public static void Obj(String[] foretag, String[] alts) {

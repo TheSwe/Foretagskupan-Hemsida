@@ -7,7 +7,7 @@ import java.io.File;
 public class buildtest {
     public static void main(String[] args) {
         try{
-            FileReader fr = new FileReader(new File("Q://New folder//Foretagskupan-Hemsida//notWebsite//templateforetag.html"));   //reads the file  
+            FileReader fr = new FileReader(new File("C://Users//arvid.kagedal//Documents//GitHub//Foretagskupan-Hemsida//notWebsite//templateforetag.html"));   //reads the file  
             BufferedReader br=new BufferedReader(fr);  //creates a buffering character input stream  
             String line; 
             FileWriter fWriter = null;
@@ -19,6 +19,8 @@ public class buildtest {
             while((line=br.readLine())!=null)  
             {  
                 writer.write("writer.write(\""+line+"\");");
+                writer.newLine();
+                writer.write("writer.newLine();");
                 writer.newLine();
             }  
             writer.close();
