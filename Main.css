@@ -53,68 +53,8 @@
 .carousel-item img{
   object-fit: cover;
 }
-
-/* hex grid */
-.hex-center {
-  width:90%;
-  margin: auto;
-}
-.hex-main {
-  width: 100vw;
-  display:flex;
-  --s: 160px;  /* size  */
-  --r: 1;      /* ratio */
-  
-  /* clip-path parameter */
-  --hc: 30px; 
-  --vc: calc((var(--s)/2));
-  
-
-  --m: 8px;    /* vertical margin */
-  --m-h: calc(var(--m) + (var(--s) - 2*var(--hc))/2); /* horizontal margin */
-  --f: calc(1.9*var(--s) + 4*var(--m) - 2*var(--vc) - 2px);
-  justify-content: center;
-}
-@media screen and (min-width: 850px){
-  .hex-main {
-    width: 100vw;
-    margin-left: -4.5vw;
-
-    display: flex;
-    --s: 275px;  /* size  */
-    --r: 1;      /* ratio */
-    
-    /* clip-path parameter */
-    --hc: 50px; 
-    --vc: calc((var(--s)/2));
-    
-  
-    --m: 8px;    /* vertical margin */
-    --m-h: calc(var(--m) + (var(--s) - 2*var(--hc))/2); /* horizontal margin */
-    --f: calc(1.9*var(--s) + 4*var(--m) - 2*var(--vc) - 2px);
-  }
-}
-.hex-container {
-  width: 90%;
-  font-size: 0; /* disable white space between inline block element */
-}
-.hex-container div {
-  width: var(--s);
-  margin: var(--m) var(--m-h);
-  height: calc(var(--s)*var(--r));
-  display: inline-block;
-  font-size:initial;
-  clip-path: polygon(var(--hc) 0, calc(100% - var(--hc)) 0,100% var(--vc), calc(100% - var(--hc)) 100%,var(--hc) 100%,0 var(--vc));
-  margin-bottom: calc(var(--m) - var(--vc) * 1.1);
-  background-color: rgb(220, 220, 220);
-}
-
-.hex-container::before {
-  content: "";
-  width: calc(var(--s)/2 + var(--m-h));
-  float: left;
-  height: 120%;
-  shape-outside: repeating-linear-gradient(rgba(0, 0, 0, 0) 0 calc(var(--f) - 3px),rgba(0, 0, 0) 0 var(--f));
+.foretag-header{
+  font-size: 400%;
 }
 
 /* foretag i grid */
